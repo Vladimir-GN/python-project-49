@@ -14,3 +14,6 @@ This project was built using these tools:
 
 ### Example brain-event:
 [![asciicast](https://asciinema.org/a/cjXUvRfCofYjqouCz6ssZuyX0.svg)](https://asciinema.org/a/cjXUvRfCofYjqouCz6ssZuyX0)
+
+### Example brain-calc:
+[![asciicast](https://asciinema.org/a/zAxX64CHNpHUpMgMN4PDBQ3GD.svg)](https://asciinema.org/a/zAxX64CHNpHUpMgMN4PDBQ3GD)
