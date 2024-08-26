@@ -17,3 +17,6 @@ This project was built using these tools:
 
 ### Example brain-calc:
 [![asciicast](https://asciinema.org/a/zAxX64CHNpHUpMgMN4PDBQ3GD.svg)](https://asciinema.org/a/zAxX64CHNpHUpMgMN4PDBQ3GD)
+
+### Example brain-gcd:
+[![asciicast](https://asciinema.org/a/0WHJIU0eIGa1BroZpHspHSSrs.svg)](https://asciinema.org/a/0WHJIU0eIGa1BroZpHspHSSrs)

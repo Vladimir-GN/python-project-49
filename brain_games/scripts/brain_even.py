@@ -10,29 +10,33 @@ def main():
     print(f'Hello, {name}')
     print('Answer "yes" if the number is even, otherwise answer "no"')
 
-    count = 0
+    correct_answer = 0
 
-    while count < 3:
+    while correct_answer < 3:
 
         question_number = random.randint(1, 100)
 
         if question_number % 2 == 0:
-            correct_answer = 'yes'
+            even = 'yes'
         else:
-            correct_answer = 'no'
+            even = 'no'
 
         print(f'Question: {question_number}')
         print('Your answer: ', end='')
         user_answer = input()
 
-        if user_answer == correct_answer:
+        if user_answer == even:
             print('Correct!')
-            count += 1
+            correct_answer += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{even}'.")
             break
 
-    if count == 3:
+    if correct_answer == 3:
         print(f'Congratulations, {name}!')
     else:
         print(f"Let's try again, {name}!")
+
+
+if __name__ == "__main__":
+    main()
