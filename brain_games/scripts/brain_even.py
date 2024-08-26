@@ -10,9 +10,9 @@ def main():
     print(f'Hello, {name}')
     print('Answer "yes" if the number is even, otherwise answer "no"')
 
-    correct_answer = 0
+    win_rounds = 0
 
-    while correct_answer < 3:
+    while win_rounds < 3:
 
         question_number = random.randint(1, 100)
 
@@ -27,12 +27,12 @@ def main():
 
         if user_answer == even:
             print('Correct!')
-            correct_answer += 1
+            win_rounds += 1
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{even}'.")
             break
 
-    if correct_answer == 3:
+    if win_rounds == 3:
         print(f'Congratulations, {name}!')
     else:
         print(f"Let's try again, {name}!")

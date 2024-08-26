@@ -20,3 +20,6 @@ This project was built using these tools:
 
 ### Example brain-gcd:
 [![asciicast](https://asciinema.org/a/0WHJIU0eIGa1BroZpHspHSSrs.svg)](https://asciinema.org/a/0WHJIU0eIGa1BroZpHspHSSrs)
+
+### Example brain-progression:
+[![asciicast](https://asciinema.org/a/xtuXZzskvAuAkzLCkngPyU7xx.svg)](https://asciinema.org/a/xtuXZzskvAuAkzLCkngPyU7xx)
