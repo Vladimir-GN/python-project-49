@@ -6,5 +6,6 @@ import games.prime
 def main():
     games.prime.play_game()
 
+
 if __name__ == "__main__":
     main()

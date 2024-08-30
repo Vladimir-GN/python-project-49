@@ -6,5 +6,6 @@ import games.progression
 def main():
     games.progression.play_game()
 
+
 if __name__ == "__main__":
     main()

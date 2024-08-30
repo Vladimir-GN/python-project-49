@@ -23,7 +23,7 @@ def play_game():
 
     for _ in range(rounds):
         number = random.randint(1, 100)
-        
+
         print(f'Question: {number}')
         answer = input('Your answer: ')
         correct_answer = 'yes' if simple(number) else 'no'

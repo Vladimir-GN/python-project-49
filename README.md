@@ -12,8 +12,11 @@ This project was built using these tools:
 | [Py.Test](https://pytest.org)                                               | "A mature full-featured Python testing tool"            |
 | [flake8](https://flake8.pycqa.org/)                                         | "Your tool for style guide enforcement" |
 
+### Install brain-games:
+[![asciicast](https://asciinema.org/a/G4QbW8dtRmazz08BZ4wR1FUKW.svg)](https://asciinema.org/a/G4QbW8dtRmazz08BZ4wR1FUKW)
+
 ### Example brain-event:
-[![asciicast](https://asciinema.org/a/cjXUvRfCofYjqouCz6ssZuyX0.svg)](https://asciinema.org/a/cjXUvRfCofYjqouCz6ssZuyX0)
+[![asciicast](https://asciinema.org/a/OAU8clHzpeQdXNAvSgKP96T93.svg)](https://asciinema.org/a/OAU8clHzpeQdXNAvSgKP96T93)
 
 ### Example brain-calc:
 [![asciicast](https://asciinema.org/a/zAxX64CHNpHUpMgMN4PDBQ3GD.svg)](https://asciinema.org/a/zAxX64CHNpHUpMgMN4PDBQ3GD)
