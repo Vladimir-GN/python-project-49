@@ -2,12 +2,14 @@ import random
 from games.greeting import greeting
 
 
-def simple(number):
-    if number <= 1 or number % 2 == 0:
+def is_prime(number):
+    if number <= 1:
         return False
     if number == 2:
         return True
-    for i in range(3, int(number / 0.5), 2):
+    if number % 2 == 0:
+        return False
+    for i in range(3, int(number**0.5) + 1, 2):
         if number % i == 0:
             return False
     return True
@@ -24,7 +26,7 @@ def play_game():
 
         print(f'Question: {number}')
         answer = input('Your answer: ')
-        correct_answer = 'yes' if simple(number) else 'no'
+        correct_answer = 'yes' if is_prime(number) else 'no'
         if answer == correct_answer:
             print('Correct!')
         else:
