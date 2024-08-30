@@ -10,7 +10,7 @@ def is_even(number):
 
 def play_game():
     name = greeting()
-    print('What is the result of the expression?')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
     rounds = 3
 
