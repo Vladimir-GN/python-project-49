@@ -7,5 +7,3 @@ dist/
 coverage.xml
 .pytest_cache/
 demo.cast
-demo.cast
-backup/

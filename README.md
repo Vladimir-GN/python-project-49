@@ -26,3 +26,6 @@ This project was built using these tools:
 
 ### Example brain-progression:
 [![asciicast](https://asciinema.org/a/xtuXZzskvAuAkzLCkngPyU7xx.svg)](https://asciinema.org/a/xtuXZzskvAuAkzLCkngPyU7xx)
+
+### Example brain-prime:
+[![asciicast](https://asciinema.org/a/iWDNu8Hrqy3I10yvEjo0ZyulI.svg)](https://asciinema.org/a/iWDNu8Hrqy3I10yvEjo0ZyulI)
