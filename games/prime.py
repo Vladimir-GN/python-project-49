@@ -2,13 +2,18 @@ import random
 from games.greeting import greeting
 
 
-def is_prime(n):
-    if n <= 1 or (n > 3 and (n % 2 == 0 or n % 3 == 0)):
+def is_prime(number):
+    if number <= 1:
         return False
-    for i in range(5, int(n**0.5) + 1, 2):
-        if n % i == 0:
+    if number <= 3:
+        return True
+    if number % 2 == 0 or number % 3 == 0:
+        return False
+    for i in range(5, int(number**0.5) + 1, 6):
+        if number % i == 0 or number % (i + 2) == 0:
             return False
     return True
+
 
 
 def play_game():
