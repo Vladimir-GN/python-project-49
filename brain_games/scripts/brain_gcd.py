@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-import games.gcd
+from games.game_engine import play_game
+from games import gcd
 
 
 def main():
-    games.gcd.play_game()
+    play_game(gcd)
 
 
 if __name__ == "__main__":

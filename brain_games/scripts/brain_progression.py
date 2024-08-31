@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-import games.progression
+from games.game_engine import play_game
+from games import progression
 
 
 def main():
-    games.progression.play_game()
+    play_game(progression)
 
 
 if __name__ == "__main__":

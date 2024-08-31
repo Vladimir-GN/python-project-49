@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-import games.prime
+from games.game_engine import play_game
+from games import prime
 
 
 def main():
-    games.prime.play_game()
+    play_game(prime)
 
 
 if __name__ == "__main__":

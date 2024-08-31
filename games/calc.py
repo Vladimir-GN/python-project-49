@@ -1,36 +1,20 @@
 import random
-from games.greeting import greeting, ROUNDS
+
+DESCRIPTION = 'What is the result of the expression?'
 
 
-def is_calc(number_1, number_2, operator):
+def task():
+    number_1 = random.randint(1, 100)
+    number_2 = random.randint(1, 50)
+    operator = random.choice('+-*')
+
+    question = f'{number_1} {operator} {number_2}'
+
     if operator == '+':
-        calculate = number_1 + number_2
+        correct_answer = str(number_1 + number_2)
     elif operator == '-':
-        calculate = number_1 - number_2
+        correct_answer = str(number_1 - number_2)
     elif operator == '*':
-        calculate = number_1 * number_2
-    return calculate
+        correct_answer = str(number_1 * number_2)
 
-
-def play_game():
-    name = greeting()
-    print('What is the result of the expression?')
-
-    for _ in range(ROUNDS):
-        number_1 = random.randint(1, 100)
-        number_2 = random.randint(1, 50)
-        operator = random.choice('+-*')
-
-        print(f'Question: {number_1} {operator} {number_2}')
-        answer = input('Your answer: ')
-        correct_answer = is_calc(number_1, number_2, operator)
-
-        if int(answer) == correct_answer:
-            print('Correct!')
-        else:
-            print(f"'{answer}' is wrong answer ;(. '"
-                  f"'Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {name}!")
-            return
-
-    print(f'Congratulations, {name}!')
+    return question, correct_answer

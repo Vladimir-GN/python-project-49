@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-import games.calc
+from games.game_engine import play_game
+from games import calc
 
 
 def main():
-    games.calc.play_game()
+    play_game(calc)
 
 
 if __name__ == "__main__":

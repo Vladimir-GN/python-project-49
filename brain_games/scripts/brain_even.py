@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-import games.even
+from games.game_engine import play_game
+from games import even
 
 
 def main():
-    games.even.play_game()
+    play_game(even)
 
 
 if __name__ == "__main__":
