@@ -1,5 +1,5 @@
 import random
-from games.greeting import greeting
+from games.greeting import greeting, ROUNDS
 
 
 def is_calc(number_1, number_2, operator):
@@ -16,9 +16,7 @@ def play_game():
     name = greeting()
     print('What is the result of the expression?')
 
-    rounds = 3
-
-    for _ in range(rounds):
+    for _ in range(ROUNDS):
         number_1 = random.randint(1, 100)
         number_2 = random.randint(1, 50)
         operator = random.choice('+-*')

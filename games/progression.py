@@ -1,14 +1,12 @@
 import random
-from games.greeting import greeting
+from games.greeting import greeting, ROUNDS
 
 
 def play_game():
     name = greeting()
     print('What number is missing in the progression?')
 
-    rounds = 3
-
-    for _ in range(rounds):
+    for _ in range(ROUNDS):
         start = random.randint(1, 100)
         step = random.randint(11, 31)
         length = 10

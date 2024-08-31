@@ -1,15 +1,13 @@
 import random
 import math
-from games.greeting import greeting
+from games.greeting import greeting, ROUNDS
 
 
 def play_game():
     name = greeting()
     print('Find the greatest common divisor of given numbers.')
 
-    rounds = 3
-
-    for _ in range(rounds):
+    for _ in range(ROUNDS):
         number_1 = random.randint(1, 100)
         number_2 = random.randint(1, 100)
         print(f'Question: {number_1} {number_2}')

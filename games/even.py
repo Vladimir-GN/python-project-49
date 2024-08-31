@@ -1,5 +1,5 @@
 import random
-from games.greeting import greeting
+from games.greeting import greeting, ROUNDS
 
 
 def is_even(number):
@@ -12,9 +12,7 @@ def play_game():
     name = greeting()
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
-    rounds = 3
-
-    for _ in range(rounds):
+    for _ in range(ROUNDS):
         number = random.randint(1, 100)
         print(f'Question: {number}')
         answer = input('Your answer: ')
