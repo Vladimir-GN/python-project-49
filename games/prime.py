@@ -9,7 +9,7 @@ def is_prime(number):
         return True
     if number % 2 == 0:
         return False
-    for i in range(3, int(number**0.5) + 1, 2):
+    for i in range(3, int(number / 0.5), 2):
         if number % i == 0:
             return False
     return True
@@ -30,7 +30,8 @@ def play_game():
         if answer == correct_answer:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{answer}' is wrong answer ;(. '"
+                  f"'Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
 
