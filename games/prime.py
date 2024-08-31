@@ -3,18 +3,15 @@ from games.greeting import greeting
 
 
 def is_prime(number):
-    if number <= 1:
+    if number <= 1 or (number > 2 and number % 2 == 0):
         return False
     if number == 2:
         return True
-    if number % 2 == 0:
-        return False
     limit = int(number ** 0.5) + 1
     for i in range(3, limit, 2):
         if number % i == 0:
             return False
     return True
-
 
 
 def play_game():
