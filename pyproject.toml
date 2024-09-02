@@ -7,7 +7,6 @@ repository = "https://github.com/Vladimir-GN/python-project-49.git"
 readme = "README.md"
 packages = [
   { include = "brain_games" },
-  { include = "games" },
 ]
 
 [tool.poetry.dependencies]

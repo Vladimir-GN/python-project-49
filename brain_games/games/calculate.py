@@ -7,7 +7,6 @@ def task():
     number_1 = random.randint(1, 100)
     number_2 = random.randint(1, 50)
     operator = random.choice('+-*')
-
     question = f'{number_1} {operator} {number_2}'
 
     if operator == '+':
