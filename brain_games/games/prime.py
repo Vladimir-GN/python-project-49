@@ -15,7 +15,7 @@ def is_prime(number):
         return False
 
 
-def task():
+def condition_task():
     number = random.randint(2, 100)
     question = f'{number}'
     correct_answer = 'yes' if is_prime(number) else 'no'

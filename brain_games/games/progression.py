@@ -3,7 +3,7 @@ import random
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def task():
+def condition_task():
     start = random.randint(1, 100)
     step = random.randint(11, 31)
     length = 10

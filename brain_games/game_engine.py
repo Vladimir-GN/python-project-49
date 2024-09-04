@@ -1,17 +1,16 @@
 import prompt
+from brain_games.games.constants import ROUNDS_COUNT
 
 
 def play_game(game):
-    ROUNDS = 3
-
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'"Hello, {name}!')
 
     print(game.DESCRIPTION)
 
-    for _ in range(ROUNDS):
-        question, correct_answer = game.task()
+    for _ in range(ROUNDS_COUNT):
+        question, correct_answer = game.condition_task()
         print('Question:', question)
         answer = input('Your answer: ')
 

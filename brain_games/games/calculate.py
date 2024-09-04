@@ -3,7 +3,7 @@ import random
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def task():
+def condition_task():
     number_1 = random.randint(1, 100)
     number_2 = random.randint(1, 50)
     operator = random.choice('+-*')
