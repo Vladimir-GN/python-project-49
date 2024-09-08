@@ -12,20 +12,23 @@ This project was built using these tools:
 | [Py.Test](https://pytest.org)                                               | "A mature full-featured Python testing tool"            |
 | [flake8](https://flake8.pycqa.org/)                                         | "Your tool for style guide enforcement" |
 
-### Brain Games Console Game
+# Brain Games Console Game
 Brain Games Console Game is a collection of fun and intellectual mini-games designed to boost cognitive abilities. The game helps train memory, logic, and attention. It's suitable for people of all ages who want to keep their brains sharp or just enjoy solving interesting challenges.
 
-## Features:
+### Features:
 - A variety of brain-training tasks to improve logic and thinking.
 - Simple console controls, ideal for beginners.
 - Minimalistic interface to help you focus on the tasks.
 - Continuous challenges to keep your brain active!
-## Game Modes:**
+
+### Game Modes:
 - **Arithmetic Progression:** Find the missing number in the sequence.
 - **Prime Numbers:** Determine whether a given number is prime.
 - **Even Numbers:** Guess whether the given number is even.
 - **Calculator:** Quickly solve mathematical expressions.
 - **Greatest Common Divisor:** Find the greatest common divisor of two given numbers.
+
+### How to Get Started:
 
 ### Install brain-games:
 [![asciicast](https://asciinema.org/a/G4QbW8dtRmazz08BZ4wR1FUKW.svg)](https://asciinema.org/a/G4QbW8dtRmazz08BZ4wR1FUKW)
