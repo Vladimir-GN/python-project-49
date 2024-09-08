@@ -10,7 +10,7 @@ def generate_round_data():
     hidden_index = random.randint(0, length - 1)
     progression_list = [start + i * step for i in range(length)]
     correct_answer = str(progression_list[hidden_index])
-    progression_list[hidden_index] = ".." # type: ignore
+    progression_list[hidden_index] = ".."  # type: ignore
     question = f"{' '.join(map(str, progression_list))}"
 
     return question, correct_answer
