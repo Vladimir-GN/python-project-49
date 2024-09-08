@@ -1,5 +1,6 @@
 import prompt
-from brain_games.games.constants import ROUNDS_COUNT
+
+ROUNDS_COUNT = 3
 
 
 def play_game(game):
@@ -10,16 +11,15 @@ def play_game(game):
     print(game.DESCRIPTION)
 
     for _ in range(ROUNDS_COUNT):
-        question, correct_answer = game.condition_task()
+        question, correct_answer = game.generate_round_data()
         print('Question:', question)
         answer = input('Your answer: ')
 
-        if answer == correct_answer:
-            print('Correct!')
-        else:
-            print(f"'{answer}' is wrong answer ;(. '"
-                  f"'Correct answer was '{correct_answer}'.\n"
+        if answer != correct_answer:
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'.\n"
                   f"Let's try again, {name}!")
             return
 
-    print(f'Congratulations, {name}!')
+    else:
+        print(f'Congratulations, {name}!')

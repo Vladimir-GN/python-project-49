@@ -4,7 +4,7 @@ import math
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def condition_task():
+def generate_round_data():
     number_1 = random.randint(1, 100)
     number_2 = random.randint(1, 100)
     correct_answer = str(math.gcd(number_1, number_2))
